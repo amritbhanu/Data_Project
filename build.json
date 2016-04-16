@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "c:\\abc.keystore",
+             "storePassword": "pwd123",
+             "alias": "amrit",
+             "password" : "pwd123",
+             "keystoreType": ""
+         }
+     }
+ }
