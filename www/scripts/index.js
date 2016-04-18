@@ -2,8 +2,6 @@
 // http://go.microsoft.com/fwlink/?LinkID=397704
 // To debug code on page load in Ripple or on Android devices/emulators: launch your app, set breakpoints, 
 // and then run "window.location.reload()" in the JavaScript Console.
-//key: "AKIAIN2MES36F2ICWJ2A",
-//secret: "rluySGZ4wmsRpxdtJkfel/PevbiX0R1IKyM2CMqo"
 
 
 function add_data() {
@@ -14,13 +12,9 @@ function add_data() {
     });*/
     AWS.config = new AWS.Config();
     AWS.config.update({
-        accessKeyId: 'AKIAJPTX7RGSQJRJ4NXQ',
-        secretAccessKey: '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',
         region: 'us-west-2',
         endpoint: 'https://dynamodb.us-west-2.amazonaws.com'
     });
-    //AWS.config.accessKeyId = 'AKIAIN2MES36F2ICWJ2A';
-    //AWS.config.secretAccessKey = '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';
     //AWS.config.region = 'us-west-2';
     //AWS.config.endpoint = 'https://dynamodb.us-west-2.amazonaws.com's;
     var dynamodb = new AWS.DynamoDB({apiVersion: '2012-08-10', region: 'us-west-2' , endpoint: 'https://dynamodb.us-west-2.amazonaws.com'});
