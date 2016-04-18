@@ -8,7 +8,7 @@ function add_data() {
     
     /*AWS.config.region = 'us-east-1'; // Region
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-        IdentityPoolId: 'us-east-1:241db79b-ba66-48ef-a6a2-a11d177c39ca',
+        IdentityPoolId: '',
     });*/
     AWS.config = new AWS.Config();
     AWS.config.update({
